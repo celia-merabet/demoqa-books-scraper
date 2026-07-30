@@ -1,6 +1,5 @@
-requests
-beautifulsoup4
-lxml
-pydantic
-pytest
-python-dotenv
+requests==2.32.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+pydantic==2.7.4
+pytest==8.2.2
