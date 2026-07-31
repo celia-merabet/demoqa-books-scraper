@@ -12,7 +12,7 @@
 
 ## 1. Présentation du projet
 
-Ce projet consiste à développer un collecteur Web explicable permettant d'extraire les informations bibliographiques du site DemoQA Books.
+Ce TP consiste à développer un collecteur Web explicable permettant d'extraire les informations bibliographiques du site DemoQA Books.
 
 La cible attribuée est :
 
