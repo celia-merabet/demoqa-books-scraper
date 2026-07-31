@@ -28,14 +28,16 @@ Le scraper récupère les métadonnées des livres disponibles et produit un fic
 
 ## 2. Objectifs
 
-Les objectifs du projet sont :
 
-* Diagnostiquer la structure du site Web.
-* Identifier la source réelle des données.
-* Extraire les informations des livres.
-* Normaliser les données collectées.
-* Vérifier la qualité des résultats.
-* Exporter les données dans un format ouvert JSONL.
+Le programme doit :
+
+- diagnostiquer la source réelle des données ;
+- récupérer les informations des livres ;
+- normaliser les données ;
+- éviter les doublons ;
+- produire un fichier JSONL ;
+- fournir des journaux d'exécution ;
+- être facilement reproductible.
 
 ---
 
@@ -117,3 +119,15 @@ Le projet est organisé en plusieurs modules :
 * models.py : modèle Book
 * exporter.py : génération JSONL
 * logger.py : suivi de l'exécution
+
+  # Résultat
+
+Le programme génère automatiquement :
+
+```
+output/books.jsonl
+```
+
+Chaque ligne correspond à un objet JSON représentant un livre.
+
+Exemple :
