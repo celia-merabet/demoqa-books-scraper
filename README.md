@@ -1,4 +1,3 @@
-
 # DemoQA Books Scraper
 
 ## Projet Web Scraping moderne et industrialisation
@@ -27,7 +26,6 @@ Le scraper récupère les métadonnées des livres disponibles et produit un fic
 ---
 
 ## 2. Objectifs
-
 
 Le programme doit :
 
@@ -119,7 +117,6 @@ Le projet est organisé en plusieurs modules :
 * models.py : modèle Book
 * exporter.py : génération JSONL
 * logger.py : suivi de l'exécution
-
   # Résultat
 
 Le programme génère automatiquement :
@@ -130,4 +127,16 @@ output/books.jsonl
 
 Chaque ligne correspond à un objet JSON représentant un livre.
 
-Exemple :
+Exemple : 
+
+```json
+{
+  "isbn":"9781449325862",
+  "title":"Git Pocket Guide",
+  "author":"Richard E. Silverman",
+  "publisher":"O'Reilly Media",
+  "pages":234
+}
+```
+
+![1785494965334](image/README/1785494965334.png)
